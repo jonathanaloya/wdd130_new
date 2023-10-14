@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,16 +8,26 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 } 
 #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
-
+}
+.hero-img {
+    width: 100%;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #48cae4;
+    font-family: "Raleway", "Roboto";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #0077b6;
@@ -26,6 +38,12 @@ nav a:hover {
 }
 .home-title {
     color: #14213d ;
+    font-family: "Roboto", "Raleway";
+    font-size: 2em;
+    margin-top: 10px;
+}
+main section img {
+    box-sizing: border-box;
 }
 h4 {
     color: #000;
@@ -34,6 +52,10 @@ h4 {
     background-color: #0077b6;
     color: #000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -41,23 +63,30 @@ h4 {
 }
 .msg h2 {
     color: #000;
+    font-family: "Roboto";
 }
 .msg p{
     color: #14213d;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 #background {
     background-color: #0096c7;
 }
 .msg {
     background-color: #48cae4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: white; 
     color: #000;
+    margin-top: 200px;
 }
 footer a {
     color: #000;
     text-decoration: none;
+    padding: 25px 50px;
 }
 footer a:hover {
     color: #14213d;
@@ -66,7 +95,24 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }
-.logo, .icon {
+.icon {
     width: 80px;
+    padding-top: 10px;
+}
+.card img {
+    border: 10px #000;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 

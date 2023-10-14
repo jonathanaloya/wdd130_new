@@ -1,0 +1,9 @@
+.head {
+    width: 100%;
+    
+}
+.left {
+    display: block;
+    background-color: gray;
+    size: 10px;
+}

@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color:#003554 ;
-  --secondary-color: #E7C24F ;
+  --secondary-color: #1282A2 ;
   --accent1-color: #5BC0BE;
-  --accent2-color: white;
+  --accent2-color: #aabd8c;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Roboto";
@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --paragraph-background-color:#003554 ;
   --accent1-color: #5BC0BE;
   --nav-link-color: #5BC0BE;
-  --nav-background-color:#E7C24F ;
+  --nav-background-color:#1282A2 ;
   --nav-hover-link-color: white;
   --nav-hover-background-color:#5BC0BE ;
 }

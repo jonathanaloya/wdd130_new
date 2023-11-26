@@ -46,7 +46,75 @@
     clear: both;
     display: table;
   }
-  
+
+  /* PAGE 2 Our Products*/
+
+.product {
+    text-align: center;
+}
+.txt1 {
+    margin-left: 5%;
+}
+.txt2 {
+    text-align: end;
+    margin-right: 10%;
+    margin-top: -2%;
+}
+#bends {
+    width: 40%;
+    margin-left: 10px;
+}
+.p4 {
+    float: left;
+}
+.pipes {
+    float: right;
+    width: 40%;
+    margin-right: 10px;
+    margin-top: -45%;
+}
+.white{
+    text-align: end;
+    margin-right: 15%;
+    margin-top: -3%;
+}
+.boxes {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.pipes-img {
+    float: right;
+    width: 40%;
+    margin-right: 10px;
+    margin-top: -30%;   
+}
+#white-boxes {
+    margin-left: 10px;
+    height: 40%;
+    width: 40%;
+}
+#int::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  /* END PAGE 2*/
+
+  /* PAGE 3 ABOUT US */
+
+#wired {
+    width: 100%;
+    height: 1000px;
+}
+#used_bends {
+    width: 100%;
+    height: 1000px;
+}
+.txto {
+    margin-left: 2%;
+}
+  /*END PAGE 3*/
 .head {
     background-color: #5BC0BE;
     max-width: 100%;

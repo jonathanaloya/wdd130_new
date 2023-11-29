@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+
+.hme{
+    font-family: 'Noto Sans ';
+}
 * {
     box-sizing: border-box;
   }
@@ -349,7 +353,7 @@ footer p {
 .text {
     width: 100%;
     font-size: larger;
-   
+    font-family: "Raleway";
 }    
 .c-img {
     display: flex;

@@ -126,6 +126,7 @@
     width: 50%;
     padding: 5px;
 }
+
 .pipes-img {
     float: right;
     width: 40%;
@@ -142,6 +143,21 @@
     clear: both;
     display: table;
 }
+.hme {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5BC0BE, 0 0 40px #5BC0BE, 0 0 50px #5BC0BE, 0 0 60px #5BC0BE, 0 0 70px #5BC0BE;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #E7C24F, 0 0 40px #E7C24F, 0 0 50px #E7C24F, 0 0 60px #E7C24F, 0 0 70px #E7C24F, 0 0 80px #E7C24F;
+    }
+  }
   /* END PAGE 2*/
 
   /* PAGE 3 ABOUT US */

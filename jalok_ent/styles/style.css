@@ -96,12 +96,14 @@
     text-align: center;
 }
 .txt1 {
+    
     margin-left: 5%;
 }
 .txt2 {
     text-align: end;
     margin-right: 10%;
     margin-top: -2%;
+    
 }
 #bends {
     width: 40%;

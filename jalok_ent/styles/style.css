@@ -90,56 +90,52 @@
     display: table;
   }
 
+
   /* PAGE 2 Our Products*/
 
 .product {
     text-align: center;
+    color: white;
 }
-.txt1 {
-    
-    margin-left: 5%;
-}
-.txt2 {
-    text-align: end;
-    margin-right: 10%;
-    margin-top: -2%;
-    
-}
-#bends {
-    width: 40%;
-    margin-left: 10px;
-}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text3 {
+    color: white;
+  }
+  
+  @media (max-width: 767px) {
+    .image-item {
+      width: 100%;
+    }
+  }
+ 
+
+
 .p4 {
     float: left;
 }
-.pipes {
-    float: right;
-    width: 40%;
-    margin-right: 10px;
-    margin-top: -45%;
-}
-.white{
-    text-align: end;
-    margin-right: 15%;
-    margin-top: -3%;
-}
+
 .boxes {
     float: left;
     width: 50%;
     padding: 5px;
 }
 
-.pipes-img {
-    float: right;
-    width: 40%;
-    margin-right: 10px;
-    margin-top: -30%;   
-}
-#white-boxes {
-    margin-left: 10px;
-    height: 40%;
-    width: 40%;
-}
 #int::after {
     content: "";
     clear: both;
@@ -166,14 +162,15 @@
 
 #wired {
     width: 100%;
-    height: 1000px;
+    height: 900px;      
 }
 #used_bends {
     width: 100%;
-    height: 1000px;
+    height: 900px;      
 }
 .txto {
     margin-left: 2%;
+    color: #fff;
 }
   /*END PAGE 3*/
 .head {
@@ -266,16 +263,19 @@ main section {
 #hero-img {
     width: 100%;
     margin-top: 6%;
-    height: 1000px;
+    height: 900px;
 }
 .hme {
     text-align: center;
     
 }
 #hero {
-    display: grid;
+    display: static;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 #about{
     display: grid;
@@ -384,8 +384,6 @@ footer {
 footer a {
     color: #000;
     text-decoration: none;
-    
-   
 
 }
 footer a:hover {
@@ -411,6 +409,7 @@ footer p {
     width: 100%;
     font-size: larger;
     font-family: "Raleway";
+    color: white;
 }    
 .c-img {
     display: flex;
@@ -480,10 +479,16 @@ footer .social img {
     
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     #hero, .home-grid {
         display: block;
         height: auto;
+    }
+    #white-boxes, .pipes-img, #bends, .pipes {
+        width: 100%;
+    }
+    .txt1, .txt2, .white{
+        font-size: 16px;
     }
     nav, footer {
         flex-direction: column;
